@@ -1,0 +1,1 @@
+cd /pentest/wpscan/ && ruby wpscan.rb "$@"
