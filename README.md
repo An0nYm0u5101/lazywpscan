@@ -40,6 +40,8 @@ All you video documentation will be posted here
 # Media Review
 All your Web Media Review Will be Posted Here
 
+r00t1337 : https://r00t1337.blogspot.co.id/2017/09/lazywpscan-by-yukinoshita47.html?m=1
+
 # Greetings
 
 - Garudasecurityhacker.org 
