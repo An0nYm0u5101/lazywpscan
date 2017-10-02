@@ -45,6 +45,7 @@ mkdir pentest
 chmod 777 pentest/
 cd pentest/
 git clone https://github.com/wpscanteam/wpscan.git
+chmod 777 wpscan/
 cd wpscan
 chmod 777 wpscan.rb
 gem install bundle
@@ -69,6 +70,7 @@ mkdir pentest
 chmod 777 pentest/
 cd pentest/
 git clone https://github.com/wpscanteam/wpscan.git
+chmod 777 wpscan/
 cd wpscan
 chmod 777 wpscan.rb
 gem install bundle
@@ -98,6 +100,7 @@ mkdir pentest
 chmod 777 pentest/
 cd pentest/
 git clone https://github.com/wpscanteam/wpscan.git
+chmod 777 wpscan/
 cd wpscan
 chmod 777 wpscan.rb
 bundle install --without test --path vendor/bundle
@@ -122,6 +125,7 @@ mkdir pentest
 chmod 777 pentest/
 cd pentest/
 git clone https://github.com/wpscanteam/wpscan.git
+chmod 777 wpscan/
 cd wpscan
 chmod 777 wpscan.rb
 sudo gem install bundler && bundle install --without test
@@ -147,6 +151,7 @@ mkdir pentest
 chmod 777 pentest/
 cd pentest/
 git clone https://github.com/wpscanteam/wpscan.git
+chmod 777 wpscan/
 cd wpscan
 chmod 777 wpscan.rb
 gem install bundle
@@ -166,18 +171,19 @@ echo "install finished and enjoy the lazywpscan by typing lazywpscan on your ter
 6) #Termux URL Reference https://exploithub.info/install-wpscan-in-termux/
 echo "starting install wpscan first"
 apt-get install ruby -y
-cd /
+cd ~/
 mkdir pentest
 chmod 777 pentest/
 cd pentest/
 git clone https://github.com/wpscanteam/wpscan.git
+chmod 777 wpscan/
 cd wpscan
 chmod 777 wpscan.rb
 gem install bundle
 bundle install -j5
-wget https://raw.githubusercontent.com/Yukinoshita47/lazywpscan/master/0.1.0/wpscan
+wget https://raw.githubusercontent.com/Yukinoshita47/lazywpscan/master/0.1.0/termuxwpscan
 cp wpscan /data/data/com.termux/files/usr/bin
-chmod 777 /data/data/com.termux/files/usr/bin/wpscan
+chmod 777 /data/data/com.termux/files/usr/bin/termuxwpscan
 echo"install wpscan finished"
 echo ""
 echo "next install lazywpscan"
