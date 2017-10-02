@@ -43,6 +43,7 @@ sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-
 cd /
 mkdir pentest
 chmod 777 pentest/
+cd pentest/
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan
 chmod 777 wpscan.rb
@@ -66,6 +67,7 @@ sudo apt-get install gcc git ruby ruby-dev libcurl4-openssl-dev make zlib1g-dev
 cd /
 mkdir pentest
 chmod 777 pentest/
+cd pentest/
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan
 chmod 777 wpscan.rb
@@ -94,6 +96,7 @@ sudo yum install wget
 cd /
 mkdir pentest
 chmod 777 pentest/
+cd pentest/
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan
 chmod 777 wpscan.rb
@@ -117,6 +120,7 @@ pacman -Syu libyaml
 cd /
 mkdir pentest
 chmod 777 pentest/
+cd pentest/
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan
 chmod 777 wpscan.rb
@@ -141,6 +145,7 @@ apt-get install gcc git ruby ruby-dev libcurl4-openssl-dev make zlib1g-dev
 cd /
 mkdir pentest
 chmod 777 pentest/
+cd pentest/
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan
 chmod 777 wpscan.rb
@@ -164,20 +169,21 @@ apt-get install ruby -y
 cd /
 mkdir pentest
 chmod 777 pentest/
+cd pentest/
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan
 chmod 777 wpscan.rb
 gem install bundle
 bundle install -j5
 wget https://raw.githubusercontent.com/Yukinoshita47/lazywpscan/master/0.1.0/wpscan
-cp wpscan /usr/bin/
-chmod 777 /usr/bin/wpscan
+cp wpscan /data/data/com.termux/files/usr/bin
+chmod 777 /data/data/com.termux/files/usr/bin/wpscan
 echo"install wpscan finished"
 echo ""
 echo "next install lazywpscan"
 wget https://raw.githubusercontent.com/Yukinoshita47/lazywpscan/master/0.1.0/lazywpscan
-cp lazywpscan /usr/bin/
-chmod 777 /usr/bin/lazywpscan
+cp lazywpscan /data/data/com.termux/files/usr/bin
+chmod 777 /data/data/com.termux/files/usr/bin/lazywpscan
 echo "install finished and enjoy the lazywpscan by typing lazywpscan on your terminal"
 ;;
 
