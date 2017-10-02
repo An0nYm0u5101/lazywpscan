@@ -168,7 +168,7 @@ chmod 777 /usr/bin/lazywpscan
 echo "install finished and enjoy the lazywpscan by typing lazywpscan on your terminal"
 ;;
 
-6) #Termux URL Reference https://exploithub.info/install-wpscan-in-termux/
+6) #Termux Installer by V3rluchie
 echo "starting install wpscan first"
 apt-get install ruby -y
 cd ~/
@@ -187,7 +187,7 @@ chmod 777 /data/data/com.termux/files/usr/bin/termuxwpscan
 echo"install wpscan finished"
 echo ""
 echo "next install lazywpscan"
-wget https://raw.githubusercontent.com/Yukinoshita47/lazywpscan/master/0.1.0/lazywpscan
+wget https://raw.githubusercontent.com/Yukinoshita47/lazywpscan/master/0.1.0/termux/lazywpscan
 cp lazywpscan /data/data/com.termux/files/usr/bin
 chmod 777 /data/data/com.termux/files/usr/bin/lazywpscan
 echo "install finished and enjoy the lazywpscan by typing lazywpscan on your terminal"
