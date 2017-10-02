@@ -10,7 +10,7 @@ Lazy WPScan is an automated Wordpress Scanner Tool for your easy or maybe a lazy
 - Version 0.1.0 : https://github.com/Yukinoshita47/lazywpscan/tree/master/0.1.0
 > Very First Release on 01 October 2017
 
-> Fixing bug on dir pentest and termux error on 02 October 2017
+> Fixing bug on dir pentest and termux error on 02 October 2017 notified by v3rluchie
 
 # Documentation
 
@@ -47,6 +47,8 @@ r00t1337 : https://r00t1337.blogspot.co.id/2017/09/lazywpscan-by-yukinoshita47.
 Squad cyber : http://www.squad-cyber.ga/2017/09/lazywpscan-released.html?m=1
 
 # Greetings
+
+Contributors : Yukinoshita 47, v3rluchie
 
 - Garudasecurityhacker.org 
 
