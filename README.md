@@ -39,6 +39,8 @@ All you video documentation will be posted here
 
 - Lazy WPScan Teaser : https://www.youtube.com/watch?v=SEyzqO5nK3Q
 
+- Lazy WPScan Termux demo : https://www.youtube.com/watch?v=0vhPwtw9TT4
+
 # Media Review
 All your Web Media Review Will be Posted Here
 
